@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Glücksspiel {
 
 	public static void main(String[] args){
-		boolean Geschlecht = true;
+		boolean Geschlecht = false;
 		String Name = "Oehler";
 		int Alter = 18;
 		boolean Geschlecht2 = false;
@@ -50,6 +50,7 @@ public class Glücksspiel {
 					zahl2 = s.nextInt();
 				}
 		}
+		s.close();
 		System.out.println("");
 		
 		double a = Math.random();
