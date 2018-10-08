@@ -51,7 +51,7 @@ public class Glücksspiel {
 				}
 		}
 		s.close();
-		System.out.println("");
+		//System.out.println("");
 		
 		double a = Math.random();
 		a=a*100;
